@@ -21,7 +21,7 @@ Files
 test_input.py --> Tests
 conftest.py --> utilites
 time.json--> time values in epoch format (max values upto 10) 
-baseurl.json--> the URL from which all other subsequent resource URL as derived
+baseurl.json--> the URL from which all other subsequent resource URL are derived
 check.py--> A file where unit tests can be implemented in case execution fails, to ensure whether all utilities are working fine or not
 
 
