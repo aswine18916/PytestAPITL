@@ -20,7 +20,7 @@ Below are the key sections in a Test Strategy that the team needs to work on
     * Requirements have to be finalised before automating them. Also the automation strategy. 
     * Since team uses Kanban, requirements can change at any point of time and doing the testing for changed requirements across all platforms will be a tedious task. Automation is very much essential here.
 * Test deliverable- 
-    * Which test artefacts that has to be provided to stakeholders and higher managements
+    * Which test artifacts that has to be provided to stakeholders and higher managements
 * Entry and exit criteria
     * Definition of entry and exit criteria are needed which helps in reducing doubts and discussion on responsibilities and expectations during the work
 * Defect management
