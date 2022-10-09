@@ -1,4 +1,4 @@
-Install Python, pip
+Install python 3, pip
 
 To install dependencies create a new venv in the project root folder
 -- cd <projectfolder>
