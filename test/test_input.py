@@ -1,10 +1,6 @@
-import pytest
 import json
 import requests
 import io
-from pytest import fixture
-from test.conftest import getsatelliteid
-from test.conftest import times
 
 
 class Satellites():

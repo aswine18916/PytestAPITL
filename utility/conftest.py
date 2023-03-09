@@ -4,7 +4,7 @@ import requests
 
 @pytest.fixture()
 def times():
-    with open("time.json") as timevalues:
+    with open("../data/time.json") as timevalues:
         values= json.loads(timevalues.read())
         final=""
         if len(values)>10:
@@ -16,7 +16,7 @@ def times():
 
 @pytest.fixture()
 def geturl():
-    with open("baseurl.json") as urlvalue:
+    with open("../data/baseurl.json") as urlvalue:
         convert_to_json=  json.loads(urlvalue.read())
         url=convert_to_json["url"]
         return url
@@ -31,13 +31,13 @@ def getsatelliteid(geturl):
 
 @pytest.fixture()
 def millisec():
-    with open("time.json") as timevalues:
+    with open("../data/time.json") as timevalues:
         value=(json.loads(timevalues.read()))
         return value
 
 
 @pytest.fixture()
 def numberoftimes():
-    with open("time.json") as timevalues:
+    with open("../data/time.json") as timevalues:
         values= json.loads(timevalues.read())
     return (len(values))
